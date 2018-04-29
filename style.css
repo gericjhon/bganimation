@@ -1,0 +1,119 @@
+
+@keyframes bgchanging {
+   0% {background: #fff;}
+   1% {background: #ffcdd2 ;}
+   2% {background: #e57373;}
+   3% {background: #f8bbd0 ;}
+   4% {background: #ec407a;}
+   5% {background: #e1bee7;}
+   6% {background: #ba68c8;}
+   7% {background: #b39ddb;}
+   8% {background: #7e57c2;}
+   9% {background: #9fa8da;}
+   10% {background: #5c6bc0;}
+   11% {background: #90caf9;}
+   12% {background: #42a5f5;}
+   13% {background: #81d4fa;}
+   14% {background: #29b6f6;}
+   15% {background: #80deea;}
+   16% {background: #26c6da;}
+   17% {background: #80cbc4;}
+   18% {background: #26a69a;}
+   19% {background: #a5d6a7;}
+   20% {background: #66bb6a;}
+   21% {background: #c5e1a5;}
+   22% {background: #9ccc65;}
+   23% {background: #f0f4c3;}
+   24% {background: #dce775;}
+   25% {background: #fff9c4;}
+   26% {background: #fff176;}
+   27% {background: #ffecb3;}
+   28% {background: #ffd54f;}
+   29% {background: #ffe0b2;}
+   30% {background: #ffb74d;}
+   31% {background: #ffccbc;}
+   32% {background: #ff8a65;}
+   33% {background: #ff7043;}
+   34% {background: #81ccf7;}
+   35% {background: #b2f883;}
+   36% {background: #79e7cf;}
+   37% {background: #eed07f;}
+   38% {background: #cce97b;}
+   39% {background: #f0fff0;}
+   40% {background: #cae1ff;}
+   41% {background: #bfefff;}
+   42% {background: #bbffff;}
+   43% {background: #8ee5ee;}
+   44% {background: #00f3ff;}
+   45% {background: #7fffd4;}
+   46% {background: #c1ffc1;}
+   47% {background: #9aff9a;}
+   48% {background: #ffffe0;}
+   49% {background: #ffbbff;}
+   50% {background: #cd96cd;}
+   51% {background: #ffe1ff;}
+   52% {background: #e8e8e8;}
+   53% {background: #fffaf0;}
+   54% {background: #fdf5e6;}
+   55% {background: #faf0e6;}
+   56% {background: #faebd7;}
+   57% {background: #ffebdc;}
+   58% {background: #f5fffa;}
+   59% {background: #f0f8ff;}
+   60% {background: #87ceeb;}
+   61% {background: #87cefa;}
+   62% {background: #add8e6;}
+   63% {background: #b0e0e6;}
+   64% {background: #afeeee;}
+   65% {background: #00ced1;}
+   66% {background: #98fb98;}
+   67% {background: #fafad2;}
+   68% {background: #f5f5dc;}
+   69% {background: #ff7f50;}
+   70% {background: #ffb6c1;}
+   71% {background: #dad0dd;}
+   72% {background: #ba55d3;}
+   73% {background: #d8bfd8;}
+   74% {background: #f79797;}
+   75% {background: #95ebeb;}
+   76% {background: #9adfaf;}
+   77% {background: #a3bceb;}
+   78% {background: #df92ee;}
+   79% {background: #97e091;}
+   80% {background: #cf87d1;}
+   81% {background: #aae692;}
+   82% {background: #00f3ff;}
+   83% {background: #add37c;}
+   84% {background: #8ddfdb;}
+   85% {background: #8be4a9;}
+   86% {background: #c27f95;}
+   87% {background: #add6e6;}
+   88% {background: #e1f1a9;}
+   89% {background: #89dce2;}
+   90% {background: #a3abf1;}
+   91% {background: #9edcdf;}
+   92% {background: #9bd0e9;}
+   93% {background: #e093c0;}
+   94% {background: #b1f5f5;}
+   95% {background: #b7ebc8;}
+   96% {background: #b5f0ba;}
+   97% {background: #d6e498;}
+   98% {background: #a8d4f1;}
+   99% {background: #98c7ec;}
+   100% {background: #fff;}
+
+}
+body{
+    margin: 0;
+    padding: 0;
+
+    transition-duration: 0.2s;
+    transition-property: color;
+    
+    animation-name: bgchanging;
+    animation-duration: 200s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+}
